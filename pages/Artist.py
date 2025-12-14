@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 @st.cache_data
 def load_data():
     df = pd.read_csv("data/spotify_data.csv")
