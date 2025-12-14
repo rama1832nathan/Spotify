@@ -31,7 +31,7 @@ pg = st.navigation(
     [
         st.Page(main, title="Home", icon="🏠"),
         st.Page("pages/overview.py", title="Overview", icon="📈"),
-        st.Page("pages/genre.py", title="Genre", icon="🎵"),
+        st.Page("pages/Genre.py", title="Genre", icon="🎵"),
         st.Page("pages/Artist.py",title="Artist",icon='⭐')
     ]
 )
